@@ -1,7 +1,7 @@
-package ua.lviv.iot.writer;
+package ua.lviv.iot.labs5_6.writer;
 
 import edu.umd.cs.findbugs.annotations.SuppressFBWarnings;
-import ua.lviv.iot.models.AbstractPerformance;
+import ua.lviv.iot.labs5_6.models.AbstractPerformance;
 
 import java.io.FileWriter;
 import java.util.List;

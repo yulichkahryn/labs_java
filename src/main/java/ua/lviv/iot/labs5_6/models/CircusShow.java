@@ -1,4 +1,4 @@
-package ua.lviv.iot.models;
+package ua.lviv.iot.labs5_6.models;
 
 import java.util.List;
 

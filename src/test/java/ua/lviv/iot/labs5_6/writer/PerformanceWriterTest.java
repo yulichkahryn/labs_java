@@ -1,11 +1,12 @@
-package ua.lviv.iot.writer;
+package ua.lviv.iot.labs5_6.writer;
 
 import edu.umd.cs.findbugs.annotations.SuppressFBWarnings;
 import org.junit.jupiter.api.Test;
-import ua.lviv.iot.models.AbstractPerformance;
-import ua.lviv.iot.models.CircusShow;
-import ua.lviv.iot.models.RockBandShow;
-import ua.lviv.iot.models.SymphonyOrchestra;
+import ua.lviv.iot.labs5_6.models.AbstractPerformance;
+import ua.lviv.iot.labs5_6.models.CircusShow;
+import ua.lviv.iot.labs5_6.models.RockBandShow;
+import ua.lviv.iot.labs5_6.models.SymphonyOrchestra;
+import ua.lviv.iot.labs5_6.writer.PerformanceWriter;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

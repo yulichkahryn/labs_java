@@ -1,6 +1,4 @@
-package ua.lviv.iot.models;
-
-import edu.umd.cs.findbugs.annotations.SuppressFBWarnings;
+package ua.lviv.iot.labs5_6.models;
 
 import java.util.List;
 

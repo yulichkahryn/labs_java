@@ -1,7 +1,6 @@
-package ua.lviv.iot.manager;
+package ua.lviv.iot.labs5_6.manager;
 
-import edu.umd.cs.findbugs.annotations.SuppressFBWarnings;
-import ua.lviv.iot.models.AbstractPerformance;
+import ua.lviv.iot.labs5_6.models.AbstractPerformance;
 
 import java.util.ArrayList;
 import java.util.List;

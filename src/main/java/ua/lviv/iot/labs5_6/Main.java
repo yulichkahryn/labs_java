@@ -1,10 +1,10 @@
-package ua.lviv.iot;
+package ua.lviv.iot.labs5_6;
 
-import ua.lviv.iot.manager.PerformanceManager;
-import ua.lviv.iot.models.AbstractPerformance;
-import ua.lviv.iot.models.CircusShow;
-import ua.lviv.iot.models.RockBandShow;
-import ua.lviv.iot.models.SymphonyOrchestra;
+import ua.lviv.iot.labs5_6.manager.PerformanceManager;
+import ua.lviv.iot.labs5_6.models.AbstractPerformance;
+import ua.lviv.iot.labs5_6.models.CircusShow;
+import ua.lviv.iot.labs5_6.models.RockBandShow;
+import ua.lviv.iot.labs5_6.models.SymphonyOrchestra;
 
 import java.util.Arrays;
 import java.util.LinkedList;

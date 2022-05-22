@@ -1,11 +1,11 @@
-package ua.lviv.iot.test;
+package ua.lviv.iot.labs5_6.test;
 
 import org.junit.jupiter.api.Test;
-import ua.lviv.iot.manager.PerformanceManager;
-import ua.lviv.iot.models.AbstractPerformance;
-import ua.lviv.iot.models.CircusShow;
-import ua.lviv.iot.models.RockBandShow;
-import ua.lviv.iot.models.SymphonyOrchestra;
+import ua.lviv.iot.labs5_6.manager.PerformanceManager;
+import ua.lviv.iot.labs5_6.models.AbstractPerformance;
+import ua.lviv.iot.labs5_6.models.CircusShow;
+import ua.lviv.iot.labs5_6.models.RockBandShow;
+import ua.lviv.iot.labs5_6.models.SymphonyOrchestra;
 
 import java.util.Arrays;
 import java.util.LinkedList;
@@ -83,9 +83,9 @@ class PerformanceManagerTest {
         PerformanceManager manager = new PerformanceManager(list);
         List<AbstractPerformance> findByPrice = manager.findByPrice(200);
         for (int i = 0; i < list.size(); i++) {
-            if (list.get(i).getAverageTicketPrice() == 200 && findByPrice.contains(list.get(i)) == false)
+            if (list.get(i).getAverageTicketPrice() == 200 && !findByPrice.contains(list.get(i)))
                 fail("Fail");
-            if (list.get(i).getAverageTicketPrice() != 200 && findByPrice.contains(list.get(i)) == true)
+            if (list.get(i).getAverageTicketPrice() != 200 && findByPrice.contains(list.get(i)))
                 fail("Fail");
         }
     }
